@@ -1,0 +1,24 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #ffffff;
+  --fg: #0f172a;
+}
+
+body {
+  @apply bg-white text-slate-900;
+}
+
+.container {
+  @apply max-w-6xl mx-auto px-4;
+}
+
+.section {
+  @apply py-12 md:py-16;
+}
+
+html{scroll-behavior:smooth}
+::selection{background-color:#244b8f;color:white}

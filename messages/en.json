@@ -1,0 +1,27 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "blog": "Resources",
+    "docs": "Documents",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Bilingual tax preparer in Brentwood, NY",
+    "subtitle": "IRS accredited. Serving the Hispanic community with trust and clarity."
+  },
+  "cta": {
+    "call": "Call",
+    "whatsapp": "WhatsApp"
+  },
+  "common": {
+    "learnMore": "Learn more",
+    "from": "From"
+  },
+  "footer": {
+    "rights": "All rights reserved"
+  }
+}

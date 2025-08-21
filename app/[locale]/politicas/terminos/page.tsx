@@ -1,0 +1,1 @@
+<section className='section'><div className='container space-y-4'><h1 className='text-3xl font-bold'>Términos / Terms</h1><p>Contenido de ejemplo. Reemplaza con tus términos.</p></div></section>

@@ -1,0 +1,1 @@
+<section className='section'><div className='container space-y-4'><h1 className='text-3xl font-bold'>Disclaimer</h1><p>Contenido de ejemplo. Reemplaza con tu disclaimer.</p></div></section>

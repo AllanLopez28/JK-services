@@ -1,0 +1,27 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "about": "Quiénes somos",
+    "pricing": "Tarifas",
+    "faq": "Preguntas",
+    "blog": "Blog",
+    "docs": "Documentos",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Preparadora de impuestos bilingüe en Brentwood, NY",
+    "subtitle": "Acreditada por el IRS. Atendemos a la comunidad hispana con confianza y claridad."
+  },
+  "cta": {
+    "call": "Llamar",
+    "whatsapp": "WhatsApp"
+  },
+  "common": {
+    "learnMore": "Ver más",
+    "from": "Desde"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados"
+  }
+}
