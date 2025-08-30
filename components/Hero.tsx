@@ -67,7 +67,7 @@ export default function Hero({ locale }: { locale: 'es' | 'en' }) {
         </div>
 
         {/* Right person image */}
-        {/*
+        {
 <div className="relative">
   <Reveal>
     <div className="relative mx-auto md:mx-0 w-[320px] md:w-[400px] lg:w-[480px]">
@@ -78,12 +78,12 @@ export default function Hero({ locale }: { locale: 'es' | 'en' }) {
         className="relative z-10 drop-shadow-2xl"
         priority
       />
-      />
+
       <div className="absolute -top-6 -left-6 right-0 bottom-0 rounded-[36px] bg-white/10 blur-[2px]"></div>
     </div>
   </Reveal>
 </div>
-*/}
+}
 
       </div>
     </section>

@@ -33,7 +33,7 @@ export default function ServicesShowcase({ locale }:{ locale: 'es'|'en' }){
   const list = useMemo(()=> active==='all' ? services : services.filter(s=>s.category===active), [active]);
 
   return (
-    <section className="relative overflow-hidden rounded-[32px] border bg-gradient-to-b from-slate-50 to-white">
+    <section className="relative overflow-hidden rounded-[32px] border  from-slate-50 to-white">
       {/* background pattern */}
       <div className="pointer-events-none absolute inset-0 [mask-image:radial-gradient(400px_200px_at_20%_20%,black,transparent)] bg-[url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'32\' height=\'32\' viewBox=\'0 0 32 32\'><path fill=\'%23e2e8f0\' d=\'M0 31h2v1H0zm30 0h2v1h-2zM0 0h1v2H0zm31 0h1v2h-1z\'/></svg>')] opacity-50"></div>
 
@@ -41,7 +41,7 @@ export default function ServicesShowcase({ locale }:{ locale: 'es'|'en' }){
         {/* Header */}
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
           <div>
-            <h2 className="text-2xl md:text-3xl font-semibold">{locale==='es'?'Nuestros servicios':'Our services'}</h2>
+            <h2 className=" font-serif text-3xl md:text-4xl font-semibold">{locale==='es'?'Nuestros servicios':'Our services'}</h2>
             <p className="text-slate-600">{locale==='es'?'Selecciona una categoría o explora todos.':'Choose a category or explore all.'}</p>
           </div>
 

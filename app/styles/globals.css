@@ -22,3 +22,6 @@ body {
 
 html{scroll-behavior:smooth}
 ::selection{background-color:#244b8f;color:white}
+
+/* Fuente específica para Georgia */
+.font-georgia { font-family: Georgia, Cambria, "Times New Roman", Times, serif; }
